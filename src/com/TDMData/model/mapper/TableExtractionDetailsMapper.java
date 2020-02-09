@@ -1,0 +1,11 @@
+package com.TDMData.model.mapper;
+
+import com.TDMData.model.DO.TableExtractionDetailsDO;
+import com.TDMData.model.DTO.TableExtractionDetailsDTO;
+
+public interface TableExtractionDetailsMapper {
+
+	public TableExtractionDetailsDTO convertTableExtractionDetailsDOToTableExtractionDetailsDTO(TableExtractionDetailsDO tableExtractionDo,TableExtractionDetailsDTO tableExtractionDto);
+	public TableExtractionDetailsDO convertTableExtractionDetailsDTOToTableExtractionDetailsDO(TableExtractionDetailsDTO tableExtractionDto,TableExtractionDetailsDO tableExtractionDo);
+	
+}
